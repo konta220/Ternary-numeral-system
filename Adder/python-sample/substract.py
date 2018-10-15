@@ -1,4 +1,4 @@
-import unittest
+import random
 
 
 def a_Bit(num):
@@ -61,9 +61,9 @@ def printResult(A_sub_B):
 
 if __name__ == '__main__':
     # A-B  (A>B)
-    
-    A=1021
-    B=365
+
+    A = 1021
+    B = random.randrange(1, A)
 
     # MAX_NUM = 1024
     # for A in range(MAX_NUM+1):
