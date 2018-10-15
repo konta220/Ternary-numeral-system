@@ -14,10 +14,10 @@ def Sn(num):
 
 
 def Hn(num):
-    if (not ((not a_Bit(Tn(num - 1))) and b_Bit(Tn(num - 1)))):
+    if not b_Bit(Tn(num - 1)):
         return 0
 
-    if (not ((not a_Bit(Sn(num)) and b_Bit(Sn(num))))):
+    if not b_Bit(Sn(num)):
         return 0
 
     return -1
@@ -62,8 +62,9 @@ def printResult(A_sub_B):
 if __name__ == '__main__':
     # A-B  (A>B)
 
-    A = 1021
-    B = random.randrange(1, A)
+    for index in range(10):
+        A = 1024
+        B = random.randrange(1, A)
 
     # MAX_NUM = 1024
     # for A in range(MAX_NUM+1):
