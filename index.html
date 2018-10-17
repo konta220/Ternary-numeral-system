@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>octagon-calculator</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+</head>
+
+<body style="background:gray">
+
+    <div id="app">
+        <span v-for="gateBtn in Gates">
+            <button v-on:click="selectGate = gateBtn"> {{gateBtn.pageTitle}} </button>
+        </span>
+        <h1>{{selectGate.pageTitle}} Gate</h1>
+        <img id="octagon" src=".\octagon-calculator\octagon.png" width="400" height="400" />
+    </div>
+</body>
+<script>
+    {
+        const octagon = document.getElementById("octagon");
+        const minRect = Math.min(this.innerHeight, this.innerWidth) * 0.7;
+        octagon.width = minRect;
+        octagon.height = minRect;
+    }
+
+    const Gates = [
+        {
+            pageTitle: "AND",
+        },
+        {
+            pageTitle: "OR",
+        },
+        {
+            pageTitle: "NAND",
+        },
+        {
+            pageTitle: "NOR",
+        }
+    ];
+
+    var app = new Vue({
+        el: '#app',
+        data: {
+            selectGate: Gates[0],
+            Gates: Gates,
+        }
+    });
+
+</script>
+
+</html>
