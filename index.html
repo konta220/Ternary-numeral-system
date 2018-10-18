@@ -12,18 +12,24 @@
         text-align: center;
     }
 
+    .octagon-calculator p {
+        position: absolute;
+    }
+
     button {
         margin: 0.1rem;
     }
 </style>
 
 <body>
-    <div id="app">
+    <div class="app" id="app">
         <span v-for="gateBtn in Gates">
-            <button v-on:click="selectGate = gateBtn"> {{gateBtn.pageTitle}} </button>
+            <button v-on:click="selectGate = gateBtn"> {{gateBtn.gateTitle}} </button>
         </span>
-        <h1>{{selectGate.pageTitle}} Gate</h1>
-        <img id="octagon" src=".\octagon-calculator\octagon.png" width="400" height="400" />
+        <h1>{{selectGate.gateTitle}} Gate</h1>
+        <div class="octagon-calculator">
+            <img id="octagon" v-bind:src="'.\\octagon-calculator\\' + selectGate.gateTitle + '.png'" width="400" height="400" />
+        </div>
     </div>
     </div>
 </body>
@@ -37,16 +43,56 @@
 
     const Gates = [
         {
-            pageTitle: "AND",
+            gateTitle: "AND",
+            bit: [
+                [0, 0, 0], // 000
+                [1, 0, 1], // 010
+                [0, 0, 0], // 110
+                [0, 0, 0], // 100
+                [0, 0, 0], // 101
+                [0, 0, 0], // 111
+                [0, 1, -1], // 011
+                [0, 1, -1], // 001
+            ]
         },
         {
-            pageTitle: "OR",
+            gateTitle: "OR",
+            bit: [
+                [0, 0, 0], // 000
+                [0, 0, 0], // 010
+                [0, 0, 0], // 110
+                [0, 0, 0], // 100
+                [0, 0, 0], // 101
+                [0, 0, 0], // 111
+                [0, 0, 0], // 011
+                [0, 0, 0], // 001
+            ]
         },
         {
-            pageTitle: "NAND",
+            gateTitle: "NAND",
+            bit: [
+                [0, 0, 0], // 000
+                [0, 1, -1], // 010
+                [0, 0, 0], // 110
+                [0, 0, 0], // 100
+                [0, 0, 0], // 101
+                [0, 0, 0], // 111
+                [1, 0, 1], // 011
+                [1, 0, 1], // 001
+            ]
         },
         {
-            pageTitle: "NOR",
+            gateTitle: "NOR",
+            bit: [
+                [0, 0, 0], // 000
+                [0, 0, 0], // 010
+                [0, 0, 0], // 110
+                [0, 0, 0], // 100
+                [0, 0, 0], // 101
+                [0, 0, 0], // 111
+                [0, 0, 0], // 011
+                [0, 0, 0], // 001
+            ]
         }
     ];
 
