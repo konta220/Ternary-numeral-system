@@ -7,19 +7,24 @@
 </head>
 
 <style>
-    .not {
-        text-decoration: overline;
+    #app {
+        margin: 1rem;
+        text-align: center;
+    }
+
+    button {
+        margin: 0.1rem;
     }
 </style>
 
-<body style="background:gray">
-
+<body>
     <div id="app">
         <span v-for="gateBtn in Gates">
             <button v-on:click="selectGate = gateBtn"> {{gateBtn.pageTitle}} </button>
         </span>
         <h1>{{selectGate.pageTitle}} Gate</h1>
         <img id="octagon" src=".\octagon-calculator\octagon.png" width="400" height="400" />
+    </div>
     </div>
 </body>
 <script>
