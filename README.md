@@ -91,18 +91,20 @@ ______________________________________________________________________________
 
 
 ______________________________________________________________________________
-# 6. 回路図の作成するためのソフトウェア (CAD)
+# 6. 回路図作成 - ソフトウェア (CAD)
+
+以下のソフトウェアで無料にて回路図を作成できます。
 
 Quartus Prime Lite Edition (Free)
 http://fpgasoftware.intel.com/18.1/?edition=lite
 
 ______________________________________________________________________________
-# 7. 募集
+# 7. 募集 (Recruitment)
 
 English
 - We are looking for opinions and criticisms on the issue of GitHub.
 - Who can translate into English and Chinese?
-No contact is required!!
+Contact is not required!!
 
 Japanese
 - ご意見・ご批判をgithubのissue等で募集中です。
