@@ -5,10 +5,15 @@ ______________________________________________________________________________
 
 English  
 Welcome to the Open Source Society. This repository is computer science (CS).
-We have written about the ternary-numeral notation.
+We have written about the ternary-numeral-system.
+
+Chinese  
+欢迎来到开源社会。 这个资料库是计算机科学 (CS)。  
+我们已经写了关于三元-数字系算器的世界。
 
 Japanese  
-オープンソース社会へようこそ。このリポジトリはコンピュータサイエンス (CS) です。私たちは、3進数の計算機の世界について書かれています。
+オープンソース社会へようこそ。このリポジトリはコンピュータサイエンス (CS) です。  
+私たちは、3進数の計算機の世界について書いています。
 
 ______________________________________________________________________________
 # 2. 表現
@@ -103,9 +108,17 @@ ______________________________________________________________________________
 
 English
 - We are looking for opinions and criticisms on the issue of GitHub.
+Don't hesitate to write whatever you think.
 - Who can translate into English and Chinese?
-Contact is not required!!
+
+
+Chinese
+- 我们正在寻找关于GitHub问题的意见和批评。  
+不要犹豫，写下你的想法。
+- 谁可以翻译成英文和中文？
+
 
 Japanese
-- ご意見・ご批判をgithubのissue等で募集中です。
-- 英語/中国語に翻訳していただける方を募集しております。連絡は不要です。
+- ご意見・ご批判をGitHubのissue等で募集中です。  
+遠慮せずに何でも書いてください。
+- 英語/中国語に翻訳していただける方を募集しております。
