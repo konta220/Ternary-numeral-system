@@ -83,9 +83,10 @@ ______________________________________________________________________________
 # 5. 今後の方針 (Mission)
 
 1. 文書画像のMarkdown化
-    1. JK-FF
-    2. 3進化ゲート
-    3. 全加算器
+    1. How to written?
+    2. JK-FF
+    3. 3進化ゲート
+    4. 全加算器
 2. 3進CPUの作成 (CAD)
     1. ALUの作成
     2. シフタの作成
@@ -103,8 +104,15 @@ ______________________________________________________________________________
 Quartus Prime Lite Edition (Free)  
 http://fpgasoftware.intel.com/18.1/?edition=lite
 
+
 ______________________________________________________________________________
-# 7. 募集 (Recruitment)
+# 7. 謝辞 (Special Thanks)
+
+以下のリンクにお世話になったと思う方々について記述してあります。
+[Special-thanks](how-to/Special-thanks.md)
+
+______________________________________________________________________________
+# 8. 募集 (Recruitment)
 
 English
 - We are looking for opinions and criticisms on the issue of GitHub.
