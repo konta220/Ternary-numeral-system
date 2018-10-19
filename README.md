@@ -3,11 +3,11 @@ ______________________________________________________________________________
 
 [![Turu License](https://img.shields.io/website-turu-license-black-red/http/shields.io.svg?label=license&style=flat-square)](turu-license.md)
 
-English
+English  
 Welcome to the Open Source Society. This repository is computer science (CS).
 We have written about the ternary-numeral notation.
 
-Japanese
+Japanese  
 オープンソース社会へようこそ。このリポジトリはコンピュータサイエンス (CS) です。私たちは、3進数の計算機の世界について書かれています。
 
 ______________________________________________________________________________
