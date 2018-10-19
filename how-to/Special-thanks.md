@@ -30,3 +30,10 @@ ______________________________________________________________________________
 * [コンピュータサイエンスで学ぶ論理回路とその設計](https://www.amazon.co.jp/%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9%E3%81%A7%E5%AD%A6%E3%81%B6%E8%AB%96%E7%90%86%E5%9B%9E%E8%B7%AF%E3%81%A8%E3%81%9D%E3%81%AE%E8%A8%AD%E8%A8%88-%E6%9F%B4%E5%B1%B1-%E6%BD%94/dp/4764902753)  
 単行本 – 柴山 潔  (著)
   ISBN-13: 978-4764902756
+
+
+______________________________________________________________________________
+# 参考リンク
+
+* [Design of a Ternary Edge-Triggered D Flip-Flap-Flop for Multiple-Valued Sequential Logic](chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/index.html)
+  3進数の回路について参考になりました。
